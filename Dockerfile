@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
     unzip
 
 RUN mkdir -p /usr/local/tmp \
-	cd /usr/local/tmp \
+	&& cd /usr/local/tmp \
 	&& wget http://dl.google.com/linux/deb/pool/main/g/google-chrome-stable/google-chrome-stable_"$CHROME_VERSION"_amd64.deb \
     && apt-get install -y ./google-chrome-stable_"$CHROME_VERSION"_amd64.deb \
 	&& wget https://chromedriver.storage.googleapis.com/"$CHROME_DRIVER_VERSION"/chromedriver_linux64.zip \
