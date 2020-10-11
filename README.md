@@ -4,7 +4,7 @@
 
 <!-- toc -->
 
-Chrome and chromedriver version can be easily changed modifying the following variables:
+Chrome and chromedriver versions can be easily changed modifying the following Dockerfile variables:
 
 - `CHROME_VERSION`
 - `CHROME_DRIVER_VERSION`

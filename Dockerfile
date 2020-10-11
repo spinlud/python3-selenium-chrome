@@ -1,8 +1,5 @@
 FROM python:3.6.12-slim-buster
 
-ARG PYTHON_BIN=/usr/local/bin/python
-ARG PYTHON_LIB=/usr/local/lib/libpython3.so
-
 ARG CHROME_VERSION=86.0.4240.75-1
 ARG CHROME_DRIVER_VERSION=86.0.4240.22
 
