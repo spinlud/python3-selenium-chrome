@@ -1,7 +1,7 @@
-FROM python:3.6.12-slim-buster
+FROM python:3.9-slim-bullseye
 
-ARG CHROME_VERSION=111.0.5563.64-1
-ARG CHROME_DRIVER_VERSION=111.0.5563.64
+ARG CHROME_VERSION=116.0.5845.96-1
+ARG CHROME_DRIVER_VERSION=116.0.5845.96
 
 RUN apt-get update && apt-get install -y \
 	wget \
