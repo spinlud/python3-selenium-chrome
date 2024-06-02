@@ -1,6 +1,6 @@
 FROM python:3.9-slim-bullseye
 
-ARG CHROME_VERSION=124.0.6367.118-1
+ARG CHROME_VERSION=125.0.6422.141-1
 ARG CHROME_DRIVER_VERSION=125.0.6422.141
 
 RUN apt-get update && apt-get install -y \
