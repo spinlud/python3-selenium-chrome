@@ -21,7 +21,7 @@ jobs:
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD 
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag spinlud/python3-selenium-chrome
+      run: docker build . --file Dockerfile2 --tag spinlud/python3-selenium-chrome
       
     - name: Docker Push
       run: docker push spinlud/python3-selenium-chrome
